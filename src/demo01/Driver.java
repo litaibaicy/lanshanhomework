@@ -105,12 +105,7 @@ class Solution{
             }
         }
 
-        for (int i = 0; i < lostArray.length; i++) {
-            if (!(lostArray[i].getName().equals(keyword))){
-                System.out.println("你丢失的物品不在失物招领处");
-                break;
-            }
-        }
+
 
         return aimLost;
     }
